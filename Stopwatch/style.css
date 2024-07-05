@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttons button {
+    width: 200px;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#btn-start {
+    background-color: forestgreen;
+    color: white;
+}
+
+#btn-stop {
+    background-color: orangered;
+    color: white;
+}
+
+#btn-reset {
+    background-color: rgb(241, 241, 241);
+    color: black;
+}
+
+#btn-start:hover {
+    background-color: rgb(27, 109, 27);
+}
+
+#btn-stop:hover {
+    background-color: rgb(199, 55, 3);
+}
+
+#btn-reset:hover {
+    background-color: rgb(209, 208, 208);
+}
